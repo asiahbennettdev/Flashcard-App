@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(83, 144, 217);
+}
+
+.title {
+    /* border: solid 5px black; */
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.term {
+    border: solid 5px rgb(94, 96, 206);
+    border-radius: 15px;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    background-color: white;
+}
+
+.definition {
+    border: solid 5px rgb(94, 96, 206);
+    border-radius: 15px;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    background-color: white;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    color: white;
+    background-color: rgb(116, 0, 184);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    /* transform: translateX(300px);
+    transition: 5s; */
+}
